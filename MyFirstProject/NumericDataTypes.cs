@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace MyFirstProject
 {
-    internal class Program
+    internal class NumericDataTypes
     {
         static void Main(string[] args)
         {
-             
             int x,
                 y,
                 z;
@@ -26,11 +25,8 @@ namespace MyFirstProject
             Console.WriteLine(floatNumber);
             Console.WriteLine(doubleNumber);
             Console.WriteLine(decimalNumber);
-                        
-            Console.ReadLine();
-                
 
-             
+            Console.ReadLine();
         }
     }
 }

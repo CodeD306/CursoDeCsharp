@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstWriteLine.cs" />
+    <Compile Include="FirstWriteLine - Copia.cs" />
+    <Compile Include="NumericDataTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyFirstProject
 {
-    internal class Program
+    internal class FirstWriteLine
     {
         static void Main(string[] args)
         {
