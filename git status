@@ -1,0 +1,53 @@
+[33mcommit 1f3df3b6e95f795752152166a3af5207e1729cf6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: CodeD <davidff2010@gmail.com>
+Date:   Fri Sep 13 16:12:19 2024 +0200
+
+    TextBasedDataTypes
+
+[33mcommit a942f12f3428d24521839396c7313b0c8b878990[m
+Author: CodeD <davidff2010@gmail.com>
+Date:   Fri Sep 13 16:01:37 2024 +0200
+
+    MainFuncionFixed
+
+[33mcommit 527c1bd888cb5fd96ed2b0dc881b54a34ddbee80[m
+Author: CodeD <davidff2010@gmail.com>
+Date:   Thu Sep 12 22:50:00 2024 +0200
+
+    Organizing
+
+[33mcommit 793e198e70f9e75db358f484d78eed0c8e6c96fe[m
+Author: CodeD <davidff2010@gmail.com>
+Date:   Thu Sep 12 14:53:50 2024 +0200
+
+    Fixed
+
+[33mcommit 4a8093f205eb68d69d0c6ec68157aa35baf9a6ba[m
+Author: CodeD <davidff2010@gmail.com>
+Date:   Wed Sep 11 23:05:53 2024 +0200
+
+    error
+
+[33mcommit ec9815966225314e85758054151675783eea53a1[m
+Author: CodeD <davidff2010@gmail.com>
+Date:   Wed Sep 11 19:53:30 2024 +0200
+
+    NumericDataTypes
+
+[33mcommit 866e5cf9e8ed69bbc2fc5bb663cffc0571f0a1a3[m
+Author: CodeD <davidff2010@gmail.com>
+Date:   Wed Sep 11 18:57:09 2024 +0200
+
+    FirstWriteLine
+
+[33mcommit 3db681e53e3f3ab85bcc772baa06836bd5145051[m
+Author: locke <locke@DESKTOP-1VC3KHI>
+Date:   Wed Sep 11 17:16:28 2024 +0200
+
+    Agregar archivos de proyecto.
+
+[33mcommit 1ad1836b7f1b1077d6feeda69719f19605f64c84[m
+Author: locke <locke@DESKTOP-1VC3KHI>
+Date:   Wed Sep 11 17:16:26 2024 +0200
+
+    Agregar .gitattributes y .gitignore.
