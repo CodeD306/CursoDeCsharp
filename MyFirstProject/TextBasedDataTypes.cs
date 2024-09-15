@@ -13,7 +13,8 @@ namespace MyFirstProject
         {
             string name = "David";
             char character = 'a';
-            
+            //Las variables char requieren las comillas ''
+
             Console.WriteLine(character);
             Console.WriteLine();
             Console.WriteLine("My name is");

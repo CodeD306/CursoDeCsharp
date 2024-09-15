@@ -10,6 +10,7 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+           //Convierte tipos string en Números
             string textAge = "14";
             int Age = Convert.ToInt32(textAge);
             Console.WriteLine(Age);

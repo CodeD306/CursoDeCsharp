@@ -10,6 +10,7 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+            //Hacemos que la consola escriba "Shrock"
             Console.WriteLine("Shrock");
             Console.ReadLine();
         }
