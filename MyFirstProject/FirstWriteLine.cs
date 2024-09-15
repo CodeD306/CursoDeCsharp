@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyFirstProject
 {
-    internal class ConvertingStringToNumbers
+    internal class FirstWriteLine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("shrock");
-
+            Console.WriteLine("Shrock");
             Console.ReadLine();
         }
     }
