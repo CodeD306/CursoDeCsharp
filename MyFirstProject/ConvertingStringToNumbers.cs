@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyFirstProject
 {
-    internal class ConvertingStringToNumbers
+    internal class ConvertingStringsTo
     {
         static void Main(string[] args)
         {
