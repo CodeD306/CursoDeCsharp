@@ -19,7 +19,7 @@ namespace MyFirstProject
             long bigNumber = Convert.ToInt64(textBigNumber);
             Console.WriteLine(bigNumber);
 
-            string textPi = "3.14";
+            string textPi = "3,14";
             float pi = Convert.ToSingle(textPi);
             Console.WriteLine(pi);
 
@@ -27,9 +27,11 @@ namespace MyFirstProject
             double biggerPi = Convert.ToDouble(textBiggerPi);
             Console.WriteLine(biggerPi);
 
-            string textMoney = "14.99";
+            string textMoney = "14,99";
             decimal Money = Convert.ToDecimal(textMoney);
             Console.WriteLine(Money);
+
+            Console.ReadLine();
 
         }
     }
