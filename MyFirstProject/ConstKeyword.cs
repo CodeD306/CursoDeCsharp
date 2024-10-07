@@ -6,23 +6,14 @@ using System.Threading.Tasks;
 
 namespace MyFirstProject
 {
-    internal class VarKeyboard
+    internal class ConstKeyword
     {
         static void Main(string[] args)
         {
-           //Var asume que tipo de variable es la seleccionada
+            const int num = 10;
+
+            //num = 11; = ERROR
             
-            var age = 5;
-            Console.WriteLine(age);
-
-            var bigNumber = 9000000l;
-            Console.WriteLine(bigNumber);
-
-            var name = "David";
-            Console.WriteLine(name);
-
-            //Solo debería usarse si es obvio su tipo.
-
             Console.ReadLine();
         }
     }
