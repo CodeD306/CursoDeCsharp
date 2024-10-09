@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <StartupObject>MyFirstProject.ConstKeyword</StartupObject>
+    <StartupObject>MyFirstProject.StoringUserData</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ConstKeyword.cs" />
     <Compile Include="VarKeyboard.cs" />
+    <Compile Include="StoringUserData.cs" />
     <Compile Include="Operators.cs" />
     <Compile Include="BooleanDataTypes.cs" />
     <Compile Include="FirstWriteLine.cs" />
