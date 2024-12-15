@@ -10,6 +10,19 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+
+            int num1 = 10;
+            int num2 = 2;
+            int remainder = num1 % num2;
+
+            if (remainder == 0)
+            {
+                Console.WriteLine("Es par");
+            }
+            else
+            {
+                Console.WriteLine("Es impar");
+            }
             Console.ReadLine();
         }
     }
