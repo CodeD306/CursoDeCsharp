@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <StartupObject>MyFirstProject.OddEvenChecker</StartupObject>
+    <StartupObject>MyFirstProject.ConsoleInputOutput</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConstKeyword.cs" />
+    <Compile Include="ConsoleInputOutput.cs" />
     <Compile Include="OddEvenChecker.cs" />
     <Compile Include="VarKeyboard.cs" />
     <Compile Include="StoringUserData.cs" />
