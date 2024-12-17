@@ -10,6 +10,15 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+            
+            Console.WriteLine("¿Como te llamas?");
+            Console.WriteLine();
+
+            string name = Console.ReadLine();
+            
+            Console.WriteLine();
+            Console.WriteLine("Hola " + name + "!");
+            
             Console.ReadLine();
         }
     }
