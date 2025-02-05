@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IfStatementss.cs" />
+    <Compile Include="IfStatements.cs" />
     <Compile Include="ConstKeyword.cs" />
     <Compile Include="ConsoleInputOutput.cs" />
     <Compile Include="OddEvenChecker.cs" />
