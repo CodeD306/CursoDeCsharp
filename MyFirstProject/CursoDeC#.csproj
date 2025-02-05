@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <StartupObject>MyFirstProject.ConsoleInputOutput</StartupObject>
+    <StartupObject>MyFirstProject.IfStatements</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IfStatementss.cs" />
     <Compile Include="ConstKeyword.cs" />
     <Compile Include="ConsoleInputOutput.cs" />
     <Compile Include="OddEvenChecker.cs" />
