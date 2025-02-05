@@ -29,10 +29,6 @@ namespace MyFirstProject
             {
                 Console.WriteLine("Eres mayor de edad");
             }
-            else if (age == 17)
-            {
-                Console.WriteLine("You old bitch");
-            }
             else
             {
                 Console.WriteLine("Eres menor de edad");
