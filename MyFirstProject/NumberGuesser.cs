@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,7 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+              
             Console.WriteLine("Dime el primer número");
             string firstNumberTxt = Console.ReadLine();
             int firstNumber = Convert.ToInt32(firstNumberTxt);
@@ -32,9 +34,12 @@ namespace MyFirstProject
             else
             {
                 Console.WriteLine("No es correcto :(");
+                
             }
 
             Console.ReadLine();
+
+            
         }
     }
 }
