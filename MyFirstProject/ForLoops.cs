@@ -19,10 +19,18 @@ namespace MyFirstProject
             string loopTxt = Console.ReadLine();
             int loopNum = Convert.ToInt32(loopTxt);
 
-            for (int i = 0; i < loopNum; i++)
+            if (loopNum <= 0)
             {
-                Console.WriteLine(txt);
+                Console.WriteLine("Número inválido");
             }
+            else
+            {
+                for (int i = 0; i < loopNum; i++)
+                {
+                    Console.WriteLine(txt);
+                }
+            }
+
 
 
             Console.ReadLine();
