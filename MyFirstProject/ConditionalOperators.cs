@@ -20,8 +20,8 @@ namespace MyFirstProject
 
             string ageCheck = age <= 0 ? "Edad inválida":"Tienes " + age + " años" ;
             Console.WriteLine(ageCheck);
-           
 
+            
 
 
             Console.ReadLine();
