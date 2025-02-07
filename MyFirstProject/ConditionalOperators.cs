@@ -12,7 +12,17 @@ namespace MyFirstProject
         static void Main(string[] args)
         {
 
-            Console.WriteLine("penis");
+            Console.WriteLine("Escribe tu edad");
+            Console.WriteLine();
+
+            string ageTxt = Console.ReadLine();
+            int age = Convert.ToInt32(ageTxt);
+
+            string ageCheck = age <= 0 ? "Edad inválida":"Tienes " + age + " años" ;
+            Console.WriteLine(ageCheck);
+           
+
+
 
             Console.ReadLine();
         }
