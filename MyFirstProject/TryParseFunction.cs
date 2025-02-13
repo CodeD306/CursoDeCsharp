@@ -13,9 +13,18 @@ namespace MyFirstProject
         static void Main(string[] args)
         {
 
-            Console.WriteLine("elo");
+            Console.WriteLine("Dime un número");
+            string numTxt = Console.ReadLine();
 
-            Console.ReadLine();
+            int num = 0;
+
+            while (!int.TryParse(numTxt, out num))
+            {
+                Console.WriteLine("Está mal >:(");
+                Console.WriteLine();
+                Console.WriteLine("Dime un número");
+                numTxt = Console.ReadLine();
+            }
         }
     }
 }
