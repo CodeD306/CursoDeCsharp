@@ -20,6 +20,7 @@ namespace MyFirstProject
 
             while (!int.TryParse(numTxt, out num))
             {
+                Console.WriteLine();
                 Console.WriteLine("Está mal >:(");
                 Console.WriteLine();
                 Console.WriteLine("Dime un número");
