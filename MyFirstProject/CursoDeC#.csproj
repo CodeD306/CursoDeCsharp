@@ -23,7 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <StartupObject>MyFirstProject.TimeTables</StartupObject>
+    <StartupObject>MyFirstProject.FizzBuzzGame</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FizzBuzzGame.cs" />
     <Compile Include="TimeTables.cs" />
     <Compile Include="TryParseFunction.cs" />
     <Compile Include="NumericFormating.cs" />

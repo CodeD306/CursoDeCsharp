@@ -18,7 +18,7 @@ namespace MyFirstProject
 
             string numTxt = Console.ReadLine();
             int num = Convert.ToInt32(numTxt);
-
+            
             for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine();
