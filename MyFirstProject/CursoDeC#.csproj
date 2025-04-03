@@ -16,13 +16,14 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <StartupObject>MyFirstProject.NumericFormating</StartupObject>
+    <StartupObject>MyFirstProject.PasswordChecker</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +47,7 @@
   <ItemGroup>
     <Compile Include="NumericFormating.cs" />
     <Compile Include="ConditionalOperators.cs" />
+    <Compile Include="PasswordChecker.cs" />
     <Compile Include="WhileLoops.cs" />
     <Compile Include="ForLoops.cs" />
     <Compile Include="SwitchStatements.cs" />
