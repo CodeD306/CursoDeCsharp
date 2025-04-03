@@ -13,10 +13,10 @@ namespace MyFirstProject
         {
             string ogPassword = "";
             string password = "";
-            int checker = 0;
+            bool checker = true;
 
 
-            while (checker == 0)
+            while (checker)
             {
                 while (ogPassword.Equals(string.Empty) || password.Equals(string.Empty))
                 {
@@ -58,7 +58,7 @@ namespace MyFirstProject
                 {
                     Console.WriteLine();
                     Console.WriteLine("Both passwords are the same");
-                    checker = 1;
+                    checker = false;
                 }
                 
 
