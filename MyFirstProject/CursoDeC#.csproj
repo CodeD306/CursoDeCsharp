@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MyFirstProject</RootNamespace>
     <AssemblyName>MyFirstProject</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -23,7 +24,11 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+<<<<<<< HEAD
     <StartupObject>MyFirstProject.PasswordChecker</StartupObject>
+=======
+    <StartupObject>MyFirstProject.FizzBuzzGame</StartupObject>
+>>>>>>> ab0df2ba4332a4fd15e6fb3e2eb0475870fe03ba
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,6 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FizzBuzzGame.cs" />
+    <Compile Include="TimeTables.cs" />
+    <Compile Include="TryParseFunction.cs" />
     <Compile Include="NumericFormating.cs" />
     <Compile Include="ConditionalOperators.cs" />
     <Compile Include="PasswordChecker.cs" />
