@@ -24,11 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-<<<<<<< HEAD
     <StartupObject>MyFirstProject.PasswordChecker</StartupObject>
-=======
-    <StartupObject>MyFirstProject.FizzBuzzGame</StartupObject>
->>>>>>> ab0df2ba4332a4fd15e6fb3e2eb0475870fe03ba
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
