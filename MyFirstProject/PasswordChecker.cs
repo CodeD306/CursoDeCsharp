@@ -61,7 +61,7 @@ namespace MyFirstProject
                     checker = false;
                 }
                 
-
+                Console.ReadLine();
 
 
             }
