@@ -24,7 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <StartupObject>MyFirstProject.OddEvenList</StartupObject>
+    <StartupObject>MyFirstProject.ArrayOfMultiples</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FizzBuzzGame.cs" />
+    <Compile Include="ArrayOfMultiples.cs" />
     <Compile Include="OddEvenList.cs" />
     <Compile Include="TimeTables.cs" />
     <Compile Include="TryParseFunction.cs" />
